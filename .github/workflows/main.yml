@@ -1,0 +1,12 @@
+[project]
+name = "pyweb"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.68.0",
+    "kafka-python>=2.0.2"
+]
+
+[tool.pytest.ini_options]
+addopts = "-v --cov=src"
+testpaths = "tests"

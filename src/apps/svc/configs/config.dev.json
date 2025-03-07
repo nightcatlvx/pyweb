@@ -1,0 +1,16 @@
+{
+    "kafka": {
+        "bootstrap_servers": "dev-kafka:9092",
+        "consumer_topics": [
+            "fat-svc-events"
+        ]
+    },
+    "redis": {
+        "host": "fat-redis",
+        "port": 6379,
+        "db": 0
+    },
+    "database": {
+        "url": "postgresql://dev_user:dev_pass@dev-db:5432/api_dev"
+    }
+}
